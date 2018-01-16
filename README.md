@@ -12,7 +12,11 @@ Just copy the stream_deck_divide.py file into the python plgin folder of Gimp an
 
 ## How to use
 
-Open an image and crop it manually to a 5:3 ratio or let the plugin do it for you. The advantage of the manual methode is, that you can choose the exact area for cropping the image (the plugin crops it always from the center). To crop it manually just choose the crop tool (shift + c) in Gimp, click the "Fixed" box in the tool options and set the aspect ratio to 5:3. Now draw a square with the tool and crop the selected area with a single click on it.
-Now go to "Filters" -> "Stream Deck" -> "Divide Image"
+Open an image and crop it manually to a 5:3 ratio or let the plugin do it for you. The advantage of the manual methode is, that you can choose the exact area for cropping the image (the plugin crops it always from the center). To crop it manually just choose the crop tool (shift + c) in Gimp, click the "Fixed" box in the tool options and set the aspect ratio to 5:3.
+
+![Gimp Crop Tool](/readme_images/gimp_crop.png)
+
+Draw a square with the tool and crop the selected area with a single click on it.  
+Now go to "Filters" -> "Stream Deck" -> "Divide Image"  
 If you cropped the image manually, the plugin will divide the image and save the resulting images in the folder of the original image.
 Otherwise it will crop the image and then do the same.
