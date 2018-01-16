@@ -6,7 +6,7 @@ Original image on the left and modified image on the right (looks a whole better
 ![Example](/readme_images/example.png)
 ## How it works
 
-The plugin takes an image an checks if it has the right ratio (5:3). If not, it crops the image (from the center) to the needed ratio and then divides it into 5 X 3 pieces. The divided images will be saved as PNGs in the same directory as the original image.
+The plugin takes an image an checks if it has the right ratio (5:3). If not, it crops the image (from the center) to the needed ratio and then divides it into 5x3 pieces. The divided images will be saved as PNGs in the same directory as the original image.
 
 ## How to install
 
