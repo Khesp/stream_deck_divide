@@ -19,4 +19,8 @@ Open an image and crop it manually to a 5:3 ratio or let the plugin do it for yo
 Draw a square with the tool and crop the selected area with a single click on it.  
 Now go to "Filters" -> "Stream Deck" -> "Divide Image"  
 If you cropped the image manually, the plugin will divide the image and save the resulting images in the folder of the original image.
-Otherwise it will crop the image and then do the same.
+Otherwise it will crop the image and then do the same.  
+You shoud now find additional 15 files in the folder of the original image. They should be name liked [file name]-[line]-[column]  
+You can now create e.g. hotkeys on your Stream Deck and drag the images in the right order on the 15 hotkeys. You can use the nubers of the files for orientation. So [file_name]-0-0 belongs to the upper left, [file_name]-0-1 to the middle left... and so on (see picture).  
+
+![Gimp Crop Tool](/readme_images/stream_deck_layout.png)
