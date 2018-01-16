@@ -1,7 +1,9 @@
 # Stream Deck Divide
 
-This plugin for Gimp divides a given image so that it can be used as a wallpaper on the Elgato Stream Deck.
-
+This plugin for Gimp divides a given image so that it can be used as a wallpaper on the Elgato Stream Deck.  
+__Example:__  
+Original image on the left and modified image on the right (looks a whole better in reality):  
+![Example](/readme_images/example.png)
 ## How it works
 
 The plugin takes an image an checks if it has the right ratio (5:3). If not, it crops the image (from the center) to the needed ratio and then divides it into 5 X 3 pieces. The divided images will be saved as PNGs in the same directory as the original image.
